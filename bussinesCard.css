@@ -1,0 +1,35 @@
+body{
+    margin: 20px;
+    /* inheretence */
+    text-align: center;
+
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    background: #ddebf8;
+    margin: 0 auto;
+    border-bottom: 6px solid #d8cefe ;
+    padding: 30px;
+    
+   
+}
+.photo{
+    width: 150px;
+
+}
+.new{
+    display: block;
+    margin-right: -90px;
+} 
+a:hover{
+    color: #d8cefe;
+}
+/* must to use flex box display :flex it there is parent div and his childs which change to columns 
+ the flex box make element by default block element so to make it center just use
+  margin-left:auto
+  margin-right:auto
+  width:..px
+*/ 
